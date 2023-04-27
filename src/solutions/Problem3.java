@@ -34,7 +34,7 @@ public class Problem3 {
                 "The largest prime factor is: " + largestPrimeFactor);
     }
 
-    // check if the number is prime - O(n)
+    // check if the number is prime
     static boolean isPrime(long l){
         for(long k = 2; k < Math.sqrt(l); k++){
             if(l % k == 0){
